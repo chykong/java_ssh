@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC
+    "-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"
+    "http://struts.apache.org/dtds/struts-2.0.dtd">
+<struts>
+
+	<constant name="struts.devMode" value="true" />
+	<constant name="struts.ui.theme" value="simple" />
+
+	<package name="test" extends="struts-default" namespace="/">
+		<action name="staff" class="com.critc.staff.StaffAction">
+			<result name="success">/list.jsp</result>
+			<result name="toAdd">/add.jsp</result>
+			<result name="addResult" type="redirect">staff!list.action</result>
+		</action>
+
+	</package>
+
+</struts>

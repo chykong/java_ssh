@@ -1,27 +1,35 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
     <parent>
-        <artifactId>java_ssh</artifactId>
+        <artifactId>chapter1_jsp</artifactId>
         <groupId>com.critc</groupId>
         <version>1.0-SNAPSHOT</version>
+        <relativePath>../chapter1_jsp/pom.xml</relativePath>
     </parent>
     <modelVersion>4.0.0</modelVersion>
-    <artifactId>chapter1_jsp</artifactId>
-    <packaging>pom</packaging>
-    <name>chapter1_jsp Maven Webapp</name>
+    <artifactId>chapter4_jsp_javabean_struts2</artifactId>
+    <packaging>war</packaging>
+    <name>chapter4_jsp_javabean_struts2 Maven Webapp</name>
     <url>http://maven.apache.org</url>
-    <modules>
-        <module>../chapter4_jsp_javabean_struts2</module>
-    </modules>
     <dependencies>
+        <dependency>
+            <groupId>org.apache.struts</groupId>
+            <artifactId>struts2-core</artifactId>
+            <version>2.3.24</version>
+        </dependency>
         <dependency>
             <groupId>mysql</groupId>
             <artifactId>mysql-connector-java</artifactId>
             <version>5.1.18</version>
         </dependency>
+        <dependency>
+            <groupId>javax.servlet</groupId>
+            <artifactId>servlet-api</artifactId>
+            <version>2.5</version>
+        </dependency>
     </dependencies>
     <build>
-        <finalName>chapter1_jsp</finalName>
+        <finalName>chapter4_jsp_javabean_struts2</finalName>
         <plugins>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
@@ -33,6 +41,5 @@
                 </configuration>
             </plugin>
         </plugins>
-
     </build>
 </project>
