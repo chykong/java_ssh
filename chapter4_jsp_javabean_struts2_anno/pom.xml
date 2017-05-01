@@ -7,9 +7,9 @@
         <relativePath>../chapter4_jsp_javabean_struts2/pom.xml</relativePath>
     </parent>
     <modelVersion>4.0.0</modelVersion>
-    <artifactId>chapter5_jsp_javabean_struts2_anno</artifactId>
+    <artifactId>chapter4_jsp_javabean_struts2_anno</artifactId>
     <packaging>war</packaging>
-    <name>chapter5_jsp_javabean_struts2_anno Maven Webapp</name>
+    <name>chapter4_jsp_javabean_struts2_anno Maven Webapp</name>
     <url>http://maven.apache.org</url>
     <dependencies>
         <dependency>
