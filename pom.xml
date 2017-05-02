@@ -11,6 +11,7 @@
         <module>chapter3_jsp_javabean_servlet</module>
         <module>chapter4_jsp_javabean_struts2_anno</module>
         <module>chapter5_hibernate</module>
+        <module>chapter6_mybatis</module>
     </modules>
     <packaging>pom</packaging>
 
