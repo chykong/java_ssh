@@ -3,6 +3,7 @@ package com.critc.model;
 public class Staff {
 	private int id;
 
+	private String name;//
 	public int getId() {
 		return id;
 	}
@@ -19,5 +20,4 @@ public class Staff {
 		this.name = name;
 	}
 
-	private String name;//
 }
