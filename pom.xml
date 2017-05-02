@@ -13,6 +13,7 @@
         <module>chapter5_hibernate</module>
         <module>chapter6_mybatis</module>
         <module>chapter7_1_proxy</module>
+        <module>chapter7_2_cglib</module>
     </modules>
     <packaging>pom</packaging>
 
