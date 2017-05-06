@@ -9,10 +9,14 @@
     <modelVersion>4.0.0</modelVersion>
 
     <artifactId>chapter7_2_cglib</artifactId>
-    <packaging>jar</packaging>
+    <packaging>pom</packaging>
 
     <name>chapter7_2_cglib</name>
     <url>http://maven.apache.org</url>
+    <modules>
+        <module>../chapter7_3_ioc</module>
+        <module>../chapter7_4_aop</module>
+    </modules>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>

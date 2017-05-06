@@ -1,0 +1,6 @@
+<beans>
+    <bean id="userDao" class="com.critc.dao.UserDaoImpl"/>
+    <bean id="userService" class="com.critc.service.UserServiceImpl">
+        <property name="userDao" bean="userDao"/>
+    </bean>
+</beans>
