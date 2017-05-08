@@ -10,11 +10,6 @@
     <packaging>pom</packaging>
     <name>chapter1_jsp Maven Webapp</name>
     <url>http://maven.apache.org</url>
-    <modules>
-        <module>../chapter4_jsp_javabean_struts2</module>
-        <module>../chapter7_2_cglib</module>
-        <module>../chapter8_jdbctemplate</module>
-    </modules>
     <dependencies>
         <dependency>
             <groupId>mysql</groupId>
