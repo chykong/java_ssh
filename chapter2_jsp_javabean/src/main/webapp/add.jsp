@@ -8,7 +8,6 @@
 </head>
 <body>
 	新增员工
-
 	<form action="add_do.jsp" method="post">
 		姓名：<input type="text" name="name"><br> <input
 			type="submit" value="保存">
