@@ -13,9 +13,6 @@
 
     <name>chapter8_jdbctemplate</name>
     <url>http://maven.apache.org</url>
-    <modules>
-        <module>../chapter9_mvc</module>
-    </modules>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
