@@ -9,7 +9,6 @@
 </head>
 <body>
 	员工列表
-	<a href="staff!toAdd.action"> 新增</a>
 	<br />
 	<table border="1">
 		<tr>
