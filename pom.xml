@@ -18,6 +18,7 @@
         <module>chapter7_4_aop</module>
         <module>chapter8_jdbctemplate</module>
         <module>chapter9_springmvc</module>
+        <module>chapter10_spring_springmvc</module>
     </modules>
     <packaging>pom</packaging>
 
