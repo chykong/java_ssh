@@ -6,3 +6,8 @@
 当然重点是spring，像struts、servlet、hibernate会讲一下基本原理，详细的都会带过，毕竟这不是学习的重点。
 
 针对spring，会讲动态代理、IOC、AOP的原理，会讲和SpringMVC整合等等
+
+
+
+
+本项目涉及一个数据表，建表脚本在doc/test_1.0.sql
