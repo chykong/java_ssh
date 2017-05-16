@@ -12,9 +12,6 @@
 
     <name>chapter6_mybatis</name>
     <url>http://maven.apache.org</url>
-    <modules>
-        <module>../chapter7_1_proxy</module>
-    </modules>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
