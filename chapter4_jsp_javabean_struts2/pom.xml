@@ -10,9 +10,6 @@
     <packaging>pom</packaging>
     <name>chapter4_jsp_javabean_struts2 Maven Webapp</name>
     <url>http://maven.apache.org</url>
-    <modules>
-        <module>../chapter4_jsp_javabean_struts2_anno</module>
-    </modules>
     <dependencies>
         <dependency>
             <groupId>org.apache.struts</groupId>
