@@ -17,6 +17,8 @@
         <module>chapter7_3_ioc</module>
         <module>chapter7_4_aop</module>
         <module>chapter8_jdbctemplate</module>
+        <module>hbase</module>
+        <module>chapter7_5_transaction</module>
     </modules>
     <packaging>pom</packaging>
 
