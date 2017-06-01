@@ -20,6 +20,7 @@
         <module>chapter8_jdbctemplate</module>
         <module>chapter9_springmvc</module>
         <module>chapter10_spring_springmvc</module>
+        <module>chapter7_5_transaction</module>
     </modules>
     <packaging>pom</packaging>
 
