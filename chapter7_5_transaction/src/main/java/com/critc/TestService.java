@@ -1,11 +1,9 @@
 package com.critc;
 
-import com.critc.dao.StaffDao;
-import com.critc.model.Staff;
+import com.critc.service.StaffService;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.test.annotation.Rollback;
 import org.springframework.test.context.ContextConfiguration;
 import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 
@@ -14,20 +12,13 @@ import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
  */
 @RunWith(SpringJUnit4ClassRunner.class)
 @ContextConfiguration(locations = {"classpath*:applicationContext.xml"})
-public class TestDao {
+public class TestService {
     @Autowired
-    private StaffDao staffDao;
+    private StaffService staffService;
 
     @Test
     public void testAdd() {
-        Staff staff = new Staff();
-        staff.setName("JDBCTemplate");
-        staffDao.add(staff);
+        staffService.add();
     }
 
-    @Test
-    @Rollback(false)
-    public void testList() {
-        System.out.println(staffDao.list().size());
-    }
 }
